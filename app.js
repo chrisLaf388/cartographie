@@ -27,13 +27,13 @@ const searchAlgoliaPlaces = (event) => {
    const input = document.querySelector("input");
    input.addEventListener("keyup", searchAlgoliaPlaces)
 
-   //evement clic
-   const dataList = document.querySelector('datalist');
+//    //evement clic
+//    const dataList = document.querySelector('datalist');
    
-   dataList.insertAdjacentHTML('click', (event)=>{
-       console.log(dataList);
+//    dataList.insertAdjacentHTML('click', (event)=>{
+//        console.log(dataList);
 
-   })
+//    })
 
 
    //View + marker avec géolocalisation
