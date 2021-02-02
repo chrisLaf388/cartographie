@@ -1,4 +1,3 @@
 <?php
-  header('Location: page.html');
+  header('Location: index.html');
   exit();
-?>
